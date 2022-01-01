@@ -1,0 +1,39 @@
+.section-details {
+    flex-grow: 1;
+}
+
+
+.details-content {
+  display: flex;
+  margin-top: 50px;
+
+  &__left {
+
+    &-img {
+        margin-bottom: 20px;
+    }
+    &-info {
+      display: flex;
+      flex-direction: column;
+      span {
+          margin-bottom: 10px;
+      }
+    }
+  }
+
+  &__right {
+    margin-left: 30px;
+    &-title {
+      margin-bottom: 30px;
+      font-size: 50px;
+    }
+    &-description {
+      list-style: 1.5;
+      span {
+        font-size: 22px;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+    }
+  }
+}

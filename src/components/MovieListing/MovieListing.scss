@@ -1,0 +1,24 @@
+@import '../../assets/Common/Colors.scss';
+
+.MoviesHead {
+    font-size: 40px;
+    text-align: left;
+    color: $font-primary;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+
+.MoviesItems {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . ."
+      ". . . ."
+      ". . . ."; 
+
+
+}
